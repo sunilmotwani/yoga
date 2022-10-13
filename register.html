@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,52 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <title>Document</title>
 </head>
+
 <body>
-    <a href="index.html">Home</a> 
-    <a href="about.html">About Us</a>  
-    <a href="gallery.html">Gallery</a> 
-    <a href="courses.html">Courses</a> 
-    <a href="schedule.html">Schedule</a> 
-    <a href="contact.html">Contact Us</a> 
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="courses.html">Courses</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="contact.html">Contact Us</a>
     Register
     <h1>Register Here</h1>
+    <form action="thanks.html" method="post">
+        <table align="center" width="1000">
+            <tr bgcolor="lightgrey" align="center">
+                <td><label for="fname">Enter First Name</label></td>
+                <td><input type="text" name="fname"  required  id="fname"></td>
+            </tr>
+            <tr align="center">
+                <td><label for="lname">Enter Last Name</label></td>
+                <td><input type="text"  name="lname" id="lname"></td>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td><label for="psw">Enter Password (max 10 chars)</label></td>
+                <td><input type="password" required maxlength="10" name="psw" id="psw" ></td>
+            </tr>
+            <tr align="center">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr align="center">
+                <td></td>
+                <td></td>
+            </tr>
+            <tr bgcolor="lightgrey" align="center">
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+            <tr align="center">
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
 </body>
+
 </html>
